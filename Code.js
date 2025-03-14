@@ -91,17 +91,218 @@ const isNumboneGreater= num1==num2;
 
 //console.log(isNumboneGreater);
 
-let a=2;
-let b='2';
+//let a=2;
+//let b='2';
 
 //console.log(a==b);
 //loose equality- does conversions of the value from one datatype to the other
 //truthy
 
-console.log(a===b);
+//console.log(a===b);
 
 //Strict equality-it doesn't convert
 //Stick to strict equality and use 3 = signs
+
+//Ternary operators
+
+//let age= 16;
+//const canDrive= age>=18 ? true : false;
+//console.log(canDrive)
+
+//let points= 110;
+//const customerType =points >100 ? 'gold': 'silver'
+//console.log(customerType);
+
+//logical operator- or, and, not and null
+//this is the or operator
+//console.log (true || true);// true
+//console.log(false || true); //true
+//console.log (true || false); //true
+//console.log(false || false); //false
+//as long as one of the operands is true the results is true
+
+//let hasReservation =true;
+//let acceptWalkings= false;
+
+//const hasAccessToTable= hasReservation || acceptWalkings
+
+//console.log  (hasAccessToTable)
+
+//The And operator
+//console.log(true && true)//true
+//console.log(false && true)//false
+//console.log(true && false) //false
+//console.log(false && false) //false
+
+//let age= 16;
+//let hasCar= true;
+//const canDrive= age >=16 && hasCar;
+
+//console.log(canDrive);
+
+//The ambersand && is held higher
+
+//Boolean operand !- returns the inverse
+
+//let isClosedOnSunday =true;
+//const isRestaurantOpen= !isClosedOnSunday
+
+//console.log(isRestaurantOpen)
+
+//Null operand
+
+//let a= null;
+//const result =a ?? false;
+
+//console.log(result)
+
+//falsy- applies when using logocal values with non-boolean values. The non-boolean values are '', undefined, null, false
+
+//If-else statement
+
+//let priceofChocolate= 1.99;
+//let hasAmountinCash= 0;
+
+//const canBuyChocolate =hasAmountinCash >= priceofChocolate;
+
+//console.log(canBuyChocolate);
+
+//if (canBuyChocolate){
+    //console.log('Enjoy your purchase')
+//}else {
+    //console.log('Sorry top up to buy')
+//}
+
+//let hour =14;
+//if (hour >=6 && hour <= 12)
+   // console.log ('Serving breakfast');
+//else if (hour >12 && hour <= 14)
+    //console.log('Serving Lunch');
+
+//else 
+   // console.log ('Serving dinner')
+// Switch case statements- used for equality comparison
+
+let job = 'Software Developer'
+
+// if (job === 'Software Developer'){
+//     console.log ('Writes code');
+// } else if (job === 'Designer'){
+//     console.log('Makes User Interface Document')
+// }
+  
+// switch (job){
+//     case 'Software Developer':
+//     console.log ('Writes code');
+//     break;
+//     case 'Designer':
+//         console.log('Write Interface Documents')
+//         break;
+//         case 'QA':
+//         console.log('Writes Test Analysis')
+//         break;
+//         default:
+//             console.log('Manages the Software Development team')
+
+// }
+
+// let customer = [1, 2, 3, 4, 5, 6, 7];
+
+// let idx =0;
+
+// let lengthOfArray = numbers.length;
+
+// console.log (numbers[idx++]);
+// console.log (numbers[idx++]);
+// console.log (numbers[idx++]);
+// console.log (numbers[idx++]);
+// console.log (numbers[idx++]);
+// console.log (numbers[idx++]);
+// console.log (numbers[idx]);
+
+// for (let idx=0; idx< numbers.length; idx++){
+//     //Initialization, condition, increment/decrement
+//     console.log (numbers[idx]);
+// }
+
+// for(num=0; num<100; num++){
+//     console.log('99 numbers')
+// }
+// Looping through arrays
+// const fruits = ["apple", "banana", "Pineapple", 'Kiwi']
+// for (let i= 0; i<fruits.length; i++){
+//     console.log(fruits[i]);
+// }
+
+// let customers = ['Jane', 'John', 'Wangari']
+
+// for (i= 0; i< customers.length; i++){
+//     console.log(customers[i])
+// }
+// Looping through objects
+// const user = { name: 'Sharon', age:25, job:'animator'};
+// for (let key in user){
+//     console.log(key, user[key])
+// }
+// //Key stands for property names, so name, age and job are keys
+
+// let colors =['green', 'yellow', 'red']
+
+// for (i=0; i< colors.length; i++) {
+//     console.log(colors[i])
+// }
+
+// While loop
+
+// let numbers = [1, 2, 3, 4, 5, 6, 7];
+
+// let i= 0;
+
+// while(i<numbers.length){
+//     console.log(numbers[i]);
+
+//     i++
+// }
+// let sum =0;
+
+// while(true){
+//     console.log('Loop')
+
+//     sum++
+
+//     if(sum ===10)
+//         break;
+// }
+
+//do while loop- specify the code block first then excute the condition after
+
+// let i=0;
+
+// do{
+//     console.log(i);
+
+//     i++;
+// }while(i<10);
+
+//Infinite loops
+
+// while(true){
+//     console.log('Loop');
+
+//     break;
+
+// }
+
+for (let num= 0; num<=100; num++){
+    console.log(num)
+}
+
+
+
+
+
+
+
 
 
 
