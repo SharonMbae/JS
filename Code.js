@@ -293,9 +293,127 @@ let job = 'Software Developer'
 
 // }
 
-for (let num= 0; num<=100; num++){
-    console.log(num)
-}
+// for (let num= 0; num<=100; num++){
+//     console.log(num)
+// }
+
+//for-in Loops
+
+// const classes = {
+//     name: 'Javascript for Beginners',
+//    timeUsed: 10,
+//    sections: 10
+// };
+
+// console.log(course.name)
+// console.log(['timeUsed'])
+
+// for (const key in classes){
+//     console.log(classes[key.name])
+// }
+
+// for (let key in classes){
+//     if (key=== 'name'){
+//         console.log('The name of the classes is:', classes[key])
+//     }
+       
+// }
+
+//for of loop
+// let numbers = [1, 2, 3, 4, 5]
+
+// for ( let element of numbers){
+//     console.log (element)
+// }
+
+// break or continue
+
+// for (let i= 0; i<=10; i++){
+
+//     if (i===5){
+//        break;
+//     }
+//     console.log(i)
+// }
+
+// let i=0;
+
+// while (i<10){
+
+//     if (i===5){
+//       break;  
+//     }
+//     console.log(i)
+
+//     i++
+// }
+
+//continue statement
+
+// for (let i=0; i<10; i++){
+//     if(i%2 ===1){
+//         continue;
+//     }
+//     console.log(i)
+// }
+
+// let i= 0;
+
+// while (i <10){
+//     i++;
+//     if (i% 2===0){
+//         continue;
+//     }
+//     console.log(i)
+// }
+
+// let i = 0;
+
+// do{
+//     i++;
+//     if(i%2 ===0){
+//         continue;
+//     }
+//     console.log(i)
+// }while (i<10);
+
+// const num= {name: 'Sharon', age: 25, job: 'Animator' }
+
+// for (let key in num){
+//     if (typeof num [key]=== 'string'){
+//         continue;
+//     }
+//     console.log(num[key])
+// }
+
+// const num=[1,2,3,4,5];
+//     for(element of num){
+//         if(element% 2===0){
+//             continue;
+//         }
+//         console.log(element)
+//     }
+
+// function getLetterGrade (score){
+
+//     if (score <=100 && score>=90){
+//         console.log ('Score - A')
+//         }else if (score <90 && score >=80){
+//         console.log ('score - B')
+//         }else if (score <80 && score>=70){
+//             console.log ('Score - c')
+//         }else if (score <70 && score>=60){
+//             console.log ('Score - D')
+//         }else {
+//             console.log ('Score- F')
+//         }
+// }
+//Write a function that takes an array of numbers and returns a new array with only the even numbers, but doubled.
+
+let arr =[1,2,3,4,5,6]
+if (arr % 2 ===0){
+    return arr*2
+}else return false;
 
 
 
